@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "postcss-import":{},
+    "precss":{},
+    "autoprefixer":{},
+    "cssnano":{}
+  }
+}

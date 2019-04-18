@@ -6,7 +6,7 @@
 本项目为vue版本的webpack4+前端工程项目初始模版。
 
 本模版提供了包括postcss,babel,eslint等在内的多种功能特性，使用webpack4+进行打包。主要特性如下：
-- 编译后 css 样式自动补全，可使用 css 语法的最新特性进行编程化开发
+- 编译后 css 样式自动补全，可使用 scss 语法进行编程化开发
 - 编译后 es 语法自动降级，可使用最新语法
 - 编译前代码编写规范检查，配合 VS Code 等 Editor 的 Esint 插件，可以做到开发中实时检测代码规范
 - css,js 分离打包，包括对 vue 模版文件内的 css 分离。
@@ -22,6 +22,7 @@
         - base.pcss ` 通用css`
     - common ` 通用js目录`
     - components ` vue组件`
+    - directives `vue指令`
     - pages `vue页面`
     - router ` vue路由`
     - main.js `主入口`
@@ -36,8 +37,7 @@
 - .eslintignore ` Eslint忽略的文件配置`
 - .eslintrc ` Eslint规则与插件等配置`
 - .gitignore ` git版本控制忽略的文件与目录`
-- .postcssrc.js ` postcss预处理与后处理配置`
-- favicon.icon `网站favicon，若不需要则在webpack/webpack.html.conf.js中移除favicon配置`
+- .postcssrc ` postcss预处理与后处理配置`
 - package.json ` NPM依赖包列表，其中dependencies为运行时依赖，主要内容会打入生成后的js文件，devDependencies为编译时依赖，仅在编译时需要运行，不会打入生成后的文件内。`
 - README.MD ` 本说明文档`
 - template.html ` webpack-html-plugin 自动生成 html 所需的模版文件`
