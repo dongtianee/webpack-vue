@@ -2,7 +2,7 @@
   "name": "vue-webpack-project",
   "version": "0.0.1",
   "description": "A Webpack project, build a web page easily using vue.js",
-  "author": "tiandongdong <tiandongdong@360.cn>",
+  "author": "dongtianee <dongtianee@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --open --progress  --config webpack/webpack.dev.conf.js",
@@ -18,7 +18,6 @@
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
-    "@q/webpack4-qcdn-file": "^1.0.4",
     "autoprefixer": "^9.5.1",
     "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^2.0.1",

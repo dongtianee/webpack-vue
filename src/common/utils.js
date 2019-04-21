@@ -1,5 +1,5 @@
 /**
- * 全平台 通用js方法。
+ * 通用js方法。
  */
 import Vue from 'vue';
 import urlConfig from './url-conf';

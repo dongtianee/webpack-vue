@@ -4,7 +4,7 @@ const merge = require('webpack-merge');
 const baseWebpackConfig = require('./webpack.base.conf');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const WebpackQCDNFile = require('@q/webpack4-qcdn-file');
+// const WebpackQCDNFile = require('@q/webpack4-qcdn-file');
 
 module.exports = merge(baseWebpackConfig, {
   mode: 'production',
@@ -30,11 +30,11 @@ module.exports = merge(baseWebpackConfig, {
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css'
     }),
-    new WebpackQCDNFile({
-      debug: false,
-      qcdnOpt: {
-        https: true
-      }
-    })
+    // new WebpackQCDNFile({
+    //   debug: false,
+    //   qcdnOpt: {
+    //     https: true
+    //   }
+    // })
   ]
 });
