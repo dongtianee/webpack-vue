@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const merge = require('webpack-merge');
 const baseWebpackConfig = require('./webpack.base.conf');
 const path = require('path');
@@ -46,10 +45,5 @@ module.exports = merge(baseWebpackConfig, {
       //   },
       // }
     }
-  },
-  plugins: [
-    new webpack.DefinePlugin({
-      'process.env': 'development'
-    })
-  ]
+  }
 });

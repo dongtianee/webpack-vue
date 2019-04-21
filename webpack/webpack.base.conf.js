@@ -70,7 +70,7 @@ module.exports = {
     children: false
   },
   optimization: {
-    minimize: false,
+    minimize: true,
     splitChunks: {
       chunks: 'all'
     }
