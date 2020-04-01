@@ -2,7 +2,7 @@
   <div class="header">
     <div class="header__logo" />
     <h1 class="header__title">
-      360前端星计划 · 2019
+      360前端星计划 · 2020
     </h1>
   </div>
 </template>

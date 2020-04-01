@@ -1,5 +1,5 @@
 module.exports = {
-  title: '前端星计划_2019',
+  title: '前端星计划_2020',
   template: 'template.html',
   minify: {
     removeComments: true,

@@ -22,7 +22,7 @@ module.exports = merge(baseWebpackConfig, {
     historyApiFallback: true,
     hot: true,
     inline: true,
-    https: true,
+    https: false,
     port: 8088,
     stats: {
       colors: true,
